@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(135deg,#153677,#4e085f,#ff5945);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color:#d5e0e1;
+    padding: 20px;
+    border-radius: 8px;
+   
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Blog Post Styles */
+#blogContainer .post,
+#allPostsContainer .post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #8f1818;
+    border-radius: 4px;
+    background-color: #fff5e6;
+}
+
+#blogContainer .post h3,
+#allPostsContainer .post h3 {
+    margin: 0 0 10px;
+    color: #3498db;
+}
+
+#blogContainer .post p,
+#allPostsContainer .post p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+#blogContainer .post button {
+    background-color: #e74c3c;
+    color: rgb(66, 25, 25);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#blogContainer .post button:hover {
+    background-color: #c0392b;
+}
+
+/* Input and Button Styles */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Link Styles */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+.delete-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a;
+}

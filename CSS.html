@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet"  href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+<style>
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 30px;
+        
+    }
+</style>
+</head>
+<body>
+        <center><img src="css.png" width="1300px" height="400px"> <h1 style="color: yellow;">CSS(Cascading Style Sheets)</h1></center>
+        <div class="main-html">
+    <p>CSS stands for Cascading Style Sheets. It is a language designed to format the layout of Web pages. It is used to enable the separation of presentation and content, which includes layout, colors, and fonts. They improve the accessibility of content, make it more flexible. CSS enables the specific look of HTML in the browser. CSS has lots of advantages. CSS is a great time-saver; you can write CSS once and then use the same sheet in multiple HTML pages. It provides multiple device compatibility; style sheets allow content to be optimized for more than one type of device.
+
+        In our CSS tutorial, you will learn how to use CSS to control the style and layout of multiple Web pages all at once. CSS was introduced together with HTML to provide a better way to style HTML elements.
+        
+        Before you continue, you should have a basic knowledge about HTML because, with HTML tags, we create our pages, and with CSS, we give style to our tags. It means we make our page more beautiful. HTML is used to structure content while the CSS is used for structured formatting content. With CSS, we can change the color, background-color, font-size, etc. Our CSS guide provides some sections which cover the basic knowledge, CSS Properties, and Selectors.
+        <h1>CSS Basics</h1>
+        In CSS Basics Chapter, you will get familiar with the Usage of CSS, that is the way to add styles to the HTML document and the right way of writing the syntax. Also, you will get the recap of CSS Texts, Font, Links, Tables, Border, Padding, and Margin. Each of these pages represents the set of properties and their values that will be discussed in detail in the next chapters. CSS Basics Chapter also presents CSS Gradients that display progressive transitions between two or more specified colors making the backgrounds more beautiful and unique.
+        <h1>Selectors</h1>
+        CSS is a rule-based language, which means that you define rules specifying groups of styles applying to particular elements or groups of elements on the web page. CSS Selectors are part of a CSS rule set used for selecting the content you want to style. CSS selectors select HTML elements according to their id, class, type, attribute, etc. In the Selector Chapter, we represent the pseudo-classes and pseudo-elements with their examples and browser supports. You will even get information about those selectors which are not frequently used.
+       
+        <h1>Selector types</h1>
+        Selectors may apply to the following:
+        
+        all elements of a specific type, e.g. the second-level headers h2
+        elements specified by attribute, in particular:
+        id: an identifier unique within the document, denoted in the selector language by a hash prefix e.g. #id
+        class: an identifier that can annotate multiple elements in a document, denoted by a dot prefix e.g. .classname (the phrase "CSS class", although sometimes used, is a misnomer, as element classes—specified with the HTML class attribute—is a markup feature that is distinct from browsers' CSS subsystem and the related W3C/WHATWG standards work on document styles; see RDF and microformats for the origins of the "class" system of the Web content model)
+        elements depending on how they are placed relative to others in the document tree.
+        Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters, hyphens, and underscores. A class may apply to any number of instances of any element. An ID may only be applied to a single element.
+        
+        <h1>Pseudo-classes</h1>
+        Pseudo-classes are used in CSS selectors to permit formatting based on information that is not contained in the document tree.
+        
+        One example of a widely used pseudo-class is :hover, which identifies content only when the user "points to" the visible element, usually by holding the mouse cursor over it. It is appended to a selector as in a:hover or #elementid:hover.
+        
+        A pseudo-class classifies document elements, such as :link or :visited, whereas a pseudo-element makes a selection that may consist of partial elements, such as ::first-line or ::first-letter.[6] Note the distinction between the double-colon notation used for pseudo-elements and the single-colon notation used for pseudo-classes.
+        
+        <h1>Combinators</h1>
+        Multiple simple selectors may be joined using combinators to specify elements by location, element type, id, class, or any combination thereof.[7] The order of the selectors is important. For example, div .myClass {color: red;} applies to all elements of class myClass that are inside div elements, whereas .myClass div {color: red;} applies to all div elements that are inside elements of class myClass. This is not to be confused with concatenated identifiers such as div.myClass {color: red;} which applies to div elements of class myClass.
+        
+       <h1>Declaration block</h1>
+A declaration block consists of a pair of braces ({}) enclosing a semicolon-separated list of declarations.
+
+<h1>Declaration</h1>
+Each declaration itself consists of a property, a colon (:), and a value. Optional white-space may be around the declaration block, declarations, colons, and semi-colons for readability.
+
+<h1>Properties</h1>
+Properties are specified in the CSS standard. Each property has a set of possible values. Some properties can affect any type of element, and others apply only to particular groups of elements.
+
+<h1>Values</h1>
+Values may be keywords, such as "center" or "inherit", or numerical values, such as 200px (200 pixels), 50vw (50 percent of the viewport width) or 80% (80 percent of the parent element's width).
+
+Color values can be specified with keywords (e.g. "red"), hexadecimal values (e.g. #FF0000, also abbreviated as #F00), RGB values on a 0 to 255 scale (e.g. rgb(255, 0, 0)), RGBA values that specify both color and alpha transparency (e.g. rgba(255, 0, 0, 0.8)), or HSL or HSLA values (e.g. hsl(0 100% 50%), hsl(0 100% 50% / 0.8)).
+
+Non-zero numeric values representing linear measures must include a length unit, which is either an alphabetic code or abbreviation, as in 200px or 50vw; or a percentage sign, as in 80%. Some units – cm (centimetre); in (inch); mm (millimetre); pc (pica); and pt (point) – are absolute, which means that the rendered dimension does not depend upon the structure of the page; others – em (em); ex (ex) and px (pixel)[clarification needed] – are relative, which means that factors such as the font size of a parent element can affect the rendered measurement. These eight units were a feature of CSS 1[14] and retained in all subsequent revisions. The proposed CSS Values and Units Module Level 3 will, if adopted as a W3C Recommendation, provide seven further length units: ch; Q; rem; vh; vmax; vmin; and vw
+
+
+
+
+        <h1>Use</h1>
+Before CSS, nearly all presentational attributes of HTML documents were contained within the HTML markup. All font colors, background styles, element alignments, borders, and sizes had to be explicitly described, often repeatedly, within the HTML. CSS lets authors move much of that information to another file, the style sheet, resulting in considerably simpler HTML. And additionally, as more and more devices are able to access responsive web pages, different screen sizes and layouts begin to appear. Customizing a website for each device size is costly and increasingly difficult. The modular nature of CSS means that styles can be reused in different parts of a site or even across sites, promoting consistency and efficiency.
+
+For example, headings (h1 elements), sub-headings (h2), sub-sub-headings (h3), etc., are defined structurally using HTML. In print and on the screen, choice of font, size, color and emphasis for these elements is presentational.
+
+Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for aural text readers. The W3C has now deprecated the use of all presentational HTML markup
+    </p>
+    <center><img src="public/images/Screenshot 2024-08-30 221113.png">
+        <a href="https://www.w3schools.com/css/"style="color:yellow;">For more information about CSS take A look Hear</a>
+
+    </center>
+    <button><a href="home.html">HOME</a></button>
+    </div>
+</body>
+</html>

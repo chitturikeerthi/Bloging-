@@ -1,0 +1,23 @@
+*{
+    overflow-x: hidden;
+    background-color: rgb(26, 2, 48);
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    word-spacing: 5px;
+    font-size: 20PX;
+    font-family: "EB Garamond", serif;
+   
+ 
+}
+h1{
+    font-size: 30px;
+}
+
+lable a{
+   color: aliceblue;
+}
+img{
+    position: relative;
+    left: -180px;
+}
